@@ -247,7 +247,8 @@ nav > h3{
     } */
     .container-2{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+        grid-template-columns: 1fr;
     }
     .br-1{
         display: none;
@@ -331,5 +332,19 @@ nav > h3{
     .btn-3-4-com{
         font-size: 0.56rem;
         font-weight: 400;
+    }
+    /* habit */
+    .title-com{
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+    .pic-holder-h{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .ha-p-s{
+        padding: 25px;
+        text-align: center;
+        align-items: center;
     }
 }
