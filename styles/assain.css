@@ -59,10 +59,15 @@
     font-family: 'Miama';
 }
 .hed-des{
-    margin-bottom: 22px;
+    margin-bottom: 30px;
+    margin-top: -40px;
+}
+.header-item{
+    margin-bottom: 10rem;
+    padding:  20px 0px;
 }
 .header-title{
-    font-size: 2.9rem;
+    font-size: 4rem;
     /* margin-bottom: -28px; */
 }
 .header-description{
@@ -95,9 +100,10 @@
 }
 header{
     /* width: 1440px; */
-    width: auto;
+    width: 100%;
 }
 .container-2{
+    border: 2px solid seashell;
     align-items: center;
     justify-content: space-around;  
 }
@@ -230,9 +236,9 @@ nav > h3{
     .nav-link , .nav-item{
         display: none; 
     }
-    header{
+    /* header{
         width: 100%;
-    }
+    } */
     .fitness{
         font-size: 2.02rem;
     }
@@ -242,9 +248,9 @@ nav > h3{
         justify-content: space-between;
         align-items: center;
     }
-    /* .header-item{
-        margin-left: 20px;
-    } */
+    .hed-des{
+        margin-top: 10px;
+    }
     .container-2{
         display: grid;
         width: auto;
@@ -344,7 +350,7 @@ nav > h3{
     }
     .ha-p-s{
         padding: 25px;
-        text-align: center;
-        align-items: center;
+        /* text-align: center;
+        align-items: center; */
     }
 }
