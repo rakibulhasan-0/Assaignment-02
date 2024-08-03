@@ -235,15 +235,10 @@ nav > h3{
     .nav-link , .nav-item{
         display: none; 
     }
-    /* header{
-        width: 100%;
-    } */
     .fitness{
         font-size: 2.02rem;
     }
     .fitness , .hamburger{
-        /* margin-left: 20px;
-        margin-right: 20px; */
         justify-content: space-between;
         align-items: center;
     }
@@ -308,7 +303,10 @@ nav > h3{
     }
     .pic-1{
         position: relative;
-        left: 20px;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        margin-top: -120px;
         width: 100%;
     }
     .mar-20{
@@ -339,6 +337,11 @@ nav > h3{
         font-weight: 400;
     }
     /* habit */
+    .container-3{
+        /* border: 2px solid red; */
+        /* overflow: hidden; */
+        margin-top: -120px;
+    }
     .title-com{
         font-size: 2rem;
         color: #FFFFFF;
