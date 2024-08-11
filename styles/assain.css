@@ -523,7 +523,7 @@ nav > h3{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
-        margin: 20px 0px 0px 0px;
+        margin: 20px 20px 0px 20px;
     
     }
     .tra-2 , .tra-3, .tra-4, .tra-5,.tra-6{
