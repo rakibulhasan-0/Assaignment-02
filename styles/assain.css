@@ -305,18 +305,19 @@ nav > h3{
 } */
 /* container 7  */
 .container-7{
+    border: 2px solid rebeccapurple;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 .pic-container-7{
-    /* border: 4px solid red; */
+    border: 4px solid red;
     border-radius: 1.2rem;
     width: 1060px;
     height: 604px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 20px 0px 20px 20px;
+    padding: 20px 0px 0px 20px;
     margin: 58px 350px 88px 390px;
 }
 .head-7{
@@ -541,40 +542,27 @@ nav > h3{
     }
     .run{
         position: relative;
-        /* Object-fit: none;
-        Object-position: 66% 33%; */
-        /* border: 2px solid red; */
-        /* overflow-x: hidden;
-        overflow-y: hidden; */
         border-radius: 1.3rem;
         width: 18rem;
         height: 14rem;
         padding: 0px 40px 40px 40px;
     }
-}
-/* container 7 */
-.container-7{
-    /* border: 2px solid white; */
-    display: flex;
-    flex-direction: column;
-}
-
-.pic-container-7{
-    /* border: 4px solid red; */
-    border-radius: 1.2rem;
-    width: auto;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 20px;
-    margin: 20px 0px 0px 0px;
-
-}
-.tra-1 , .tra-2 , .tra-3, .tra-4, .tra-5,.tra-6{
-    width: 19rem;
-    height: 17rem;
-    margin-top: 20px;
-}
-.tra-1{
-    margin-top: 0px;
+    /* container 7 */
+    .container-7{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic-container-7{
+        border-radius: 1.2rem;
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+        margin: 20px 0px 0px 0px;
+    
+    }
+    .tra-2 , .tra-3, .tra-4, .tra-5,.tra-6{
+        margin-top: 20px;
+    }
 }
