@@ -276,10 +276,14 @@ nav > h3{
     /* text-align: center; */
 }
 /* container 6 */
+.bg-6{
+    width: 100%;
+    background-color: #222222;
+}
 .container-6{
     display: flex;
     justify-content: space-around;
-    background-color: #222222;
+    /* background-color: #222222; */
 }
 .title-com-6{
     color: #FFFFFF;
@@ -334,7 +338,10 @@ td, th{
 .calcu option {
     color: rgba(0, 0, 0, 0.87);
 }
-
+.description-com-6{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.50);
+}
 /* container 7 */
 .container-7{
     width: 100%;
@@ -576,6 +583,40 @@ td, th{
         width: 18rem;
         height: 14rem;
         padding: 0px 40px 40px 40px;
+    }
+    /* container 6 */
+    .container-6{
+        width: auto;
+        height: auto;
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+        background-color: #222222;
+    }
+    .main-tab{
+        width: auto;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .calu-0{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-com-6{
+        color: #FFFFFF;
+        font-size: 1rem;
+    }
+    .description-com-6{
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.50);
+    }
+    .oh-6{
+        position: relative;
+        left: 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2.3rem;
     }
     /* container 7 */
     .container-7{
