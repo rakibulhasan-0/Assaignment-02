@@ -269,6 +269,72 @@ nav > h3{
     padding: 5px 10px;
     border-radius: 15px;
 }
+/* container 5 */
+.container-5{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+/* container 6 */
+.container-6{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+}
+.title-com-6{
+    color: #FFFFFF;
+    font-size: 1.8rem;
+}
+.main-tab{
+    width: 310px;
+    height: 216px;
+    justify-content: center;
+    text-align: center;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 8px;
+}
+.tab-h{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.tab-d{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.50);
+}
+.cal-h{
+    position: relative;
+    left: 0.5rem;
+}
+.calu-0{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.calcu{
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin: 8px;
+    padding: 0px 20px 0px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+}
+.oh-5{
+    grid-column: span 2;
+}
+.oh-6{
+    position: relative;
+    left: 0.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.calcu option {
+    color: rgba(0, 0, 0, 0.87);
+}
+
 /* container 7 */
 .container-7{
     width: 100%;
@@ -516,6 +582,9 @@ nav > h3{
         display: flex;
         flex-direction: column;
     }
+    .head-7{
+        text-align: center;
+    }
     .pic-container-7{
         border-radius: 1.2rem;
         width: auto;
@@ -525,6 +594,9 @@ nav > h3{
         padding: 20px;
         margin: 20px 20px 0px 20px;
     
+    }
+    .tra-4 , .tra-1{
+        display: none;
     }
     .tra-2 , .tra-3, .tra-4, .tra-5,.tra-6{
         margin-top: 20px;
