@@ -579,10 +579,12 @@ td, th{
     }
     .run{
         position: relative;
+        /* left: -1.5rem */
+        right: 4rem;
         border-radius: 1.3rem;
-        width: 18rem;
-        height: 14rem;
-        padding: 0px 40px 40px 40px;
+        width: 16rem;
+        height: 12rem;
+        /* padding: 0px 0px 40px 40px; */
     }
     /* container 6 */
     .container-6{
